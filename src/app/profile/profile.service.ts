@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -28,7 +27,7 @@ export class ProfileService {
       id: 2,
       title: 'Portfolio',
       desc: '',
-      livedemo: '',
+      livedemo: 'https://ppatidar-3a1c1.web.app/',
       githurl: 'https://github.com/patidar05priya/portfolio',
       imgUrl: 'assets/images/z26.png',
       tech: 'Angular 15, Firebase'
