@@ -6,6 +6,8 @@ import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileModule } from './profile/profile.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactService } from './profile/contact/contact.service'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 const routes: Routes = [
   {
@@ -23,12 +25,15 @@ const routes: Routes = [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     RouterModule.forRoot(routes, {
-    initialNavigation : 'enabledBlocking'
+    initialNavigation : 'enabledBlocking',
 }),
     ProfileModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
