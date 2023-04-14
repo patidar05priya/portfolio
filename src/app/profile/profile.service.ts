@@ -44,9 +44,9 @@ export class ProfileService {
       tech: 'Kotlin, MYSQL'
     }
   ]
-  about2 = `Hi there! My name is [Your Name], and I am a full stack engineer with over 5 years of experience in cloud telecommunications and education industries.`
+  about2 = ""
 
-  about = "Throughout my career, I have been passionate about leveraging technology to solve real-world problems and improve people's lives. As a full stack engineer, I have had the opportunity to work on a wide range of projects, from developing cloud-based telephony solutions to building scalable and reliable network infrastructures."
+  about = "Hi there! I'm Priya - a lover of all things tech, books, and fitness - a combination that keeps me sharp, motivated, and ready to take on new challenges As a seasoned full-stack engineer with 5+ years of experience, I'm always striving to craft elegant and efficient web applications. With a passion for learning, I stay up-to-date on the latest industry trends and best practices. When not coding, you can find me out in nature running or playing tennis. My active lifestyle keeps me sharp and focused, making me a well-rounded engineer who can deliver exceptional results"
   resumeurl = "https://drive.google.com/file/d/1SLPNrU_GsVVchnea-J_FCE5ROtgux4ao/view?usp=sharing"
 
   skillsData: any = [
@@ -133,7 +133,10 @@ Completed my Secondary school with 84%.`
       location: 'Cary, NC',
       timeline: 'Oct 2021 to Feb 2013',
       role: 'Senior Software Developer',
-      work: 'Led software development initiative as subject matter expert and primary point-of-contact for project management staff.',
+      work: ['Technologies : Java, DynamoDB, DrowpWizard, RestAPI, Buildkite, Python, Kotlin, Terraform, AWS, Memcache, Jenkins, Git',
+        'Led software development initiative as subject matter expert and primary point-of-contact for project management staff.hhgjh', 
+      'Monitored ongoing operation of assigned programs, responded to problems by diagnosing and correcting logic, coding errors and increased success rate by 99.999%',
+    "Evaluated project requirements and specifications and developed software applications that surpassed client expectations"],
     },
     {
       id: 1,
@@ -141,7 +144,10 @@ Completed my Secondary school with 84%.`
       location: 'Raleigh, NC',
       timeline: 'Oct 2017 - OC 2021',
       role: 'Software Engineer',
-      work: 'Create and maintain a multi-host cloud application that enables users to view, manage and repair customer environments from single point of entry Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.'
+      work: ['Technologies : Java, Servlets, Springbot, Python, Jenkins, JavaScript, JQ, AWS, MYSQL, Docker, Typescript',
+        'Create and maintain a multi-host cloud application that enables users to view, manage and repair customer environments from single point of entry Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.', 
+      'Collaborated on stages of systems development lifecycle from requirement gathering to production releases.',
+    'Designed and maintained streamlined, reusable and reliable code for use within distributed cloud environments.'],
     },
 
 
