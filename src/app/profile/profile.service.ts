@@ -38,11 +38,20 @@ export class ProfileService {
       id: 3,
       title: 'MoviesDB',
       desc: '',
-      livedemo: '',
-      githurl: '',
-      imgUrl: 'assets/images/z27.png',
+      livedemo: 'https://github.com/patidar05priya/MoviesDB',
+      githurl: 'https://github.com/patidar05priya/MoviesDB',
+      imgUrl: 'assets/images/moviesdb.png',
       tech: 'Kotlin, MYSQL'
-    }
+    },
+    {
+      id: 3,
+      title: 'Simple Portfolio',
+      desc: '',
+      livedemo: 'https://patidar05priya.github.io/',
+      githurl: 'https://github.com/patidar05priya/patidar05priya.github.io',
+      imgUrl: 'assets/images/portfoliio1.png',
+      tech: 'HTML, JQ'
+    }//portfoliio1.png
   ]
   about2 = ""
 
@@ -95,34 +104,7 @@ export class ProfileService {
 
   educationData: any = [
     {
-      'id': '1',
-      'from_to_year': '2015 - 2019',
-      'education': 'Bachelor\'s Degree',
-      'stream': 'Bachelor of Engineering',
-      'info': `Aditya Silver Oak Institute is GTU Affiliated and ranks 7th in Gujurat
-Completed B.E in Computer Engineering with 9.54 CGPA.
-Won the Best Student Award 3 times for excellent Academic records at College.
-Maintained above 9.1 spi in every semester of college academic .`,
-      'institution': 'ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD'
-    },
-    {
-      'id': '2',
-      'from_to_year': '2013 - 2015',
-      'education': 'Higher Secondary',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The High School was mainly focus on the bases of science, mathematics, and Chemistry
-There was also a good base on physics, mathematics and chemistry.
-Completed my high school with 78%.`
-    },
-    {
-      'id': '3',
-      'from_to_year': '2012 - 2013',
-      'education': 'Secondary  School',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The Secondary aims at Maths , English , Science, Social Science, Litrature and Languages.
-Completed my Secondary school with 84%.`
+      
     }
   ];
 
@@ -155,25 +137,7 @@ Completed my Secondary school with 84%.`
 
   extraCircularInfo: any = [
     {
-      id:1,
-      title: 'Blogger',
-      description: '',
-      img: 'assets/images/Mehul Kothari – Medium1.png',
-      url: 'https://mehulkothari05.medium.com/'
-    },
-    {
-      id:1,
-      title: 'Github',
-      description: '',
-      img: 'assets/images/Mehulkothari_github.png',
-      url: 'https://github.com/mehulk05/'
-    },
-    {
-      id:1,
-      title: 'Freelancing',
-      description: '',
-      img: 'assets/images/mehul_freelancing.png',
-      url: 'https://www.upwork.com/freelancers/~016d6f497a5629df4b'
+     
     },
   ]
   // contactus(data: any): Observable<any> {
