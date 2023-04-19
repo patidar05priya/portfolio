@@ -55,7 +55,8 @@ export class ProfileService {
   ]
   about2 = ""
 
-  about = "Hi there! I'm Priya - a lover of all things tech, books, and fitness - a combination that keeps me sharp, motivated, and ready to take on new challenges As a seasoned full-stack engineer with 5+ years of experience, I'm always striving to craft elegant and efficient web applications. With a passion for learning, I stay up-to-date on the latest industry trends and best practices. When not coding, you can find me out in nature running or playing tennis. My active lifestyle keeps me sharp and focused, making me a well-rounded engineer who can deliver exceptional results"
+  about = "Hello, my name is Priya and I am a well-rounded and passionate full-stack engineer. I have a deep love for technology, books, and fitness, which fuels my motivation and helps me tackle new challenges with confidence. \nAs a seasoned engineer with over 5 years of experience, I am committed to crafting elegant and efficient web applications that meet the needs of my clients. My dedication to learning and staying up-to-date with the latest industry trends and best practices ensures that I always deliver high-quality results. \nOutside of work, I enjoy staying active and engaged with the world around me. Whether I'm out in nature running or playing tennis, my active lifestyle keeps me sharp and focused. This well-rounded approach to life is reflected in my work as an engineer, where I am able to draw on a wide range of skills and experiences to tackle any challenge that comes my way. \nThank you for taking the time to visit my portfolio. Do not hesitate to contact me if you believe that I could be a valuable asset to your esteemed organization."
+
   resumeurl = "https://drive.google.com/file/d/1SLPNrU_GsVVchnea-J_FCE5ROtgux4ao/view?usp=sharing"
 
   skillsData: any = [
@@ -91,14 +92,39 @@ export class ProfileService {
     },
     {
       'id': '7',
-      'skill': 'JAVASCRIPT JQUERY',
+      'skill': 'JAVASCRIPT, JQUERY',
       'progress': '70%'
     },
     {
       'id': '8',
-      'skill': 'SQL , MYSQL,FIREBASE',
+      'skill': 'SQL , MYSQL, FIREBASE',
       'progress': '75%'
     },
+    {
+      'id': '9',
+      'skill': 'DynamoDB, Memcache',
+      'progress': '75%'
+    },
+    {
+      'id': '10',
+      'skill': 'AWS - Lamda, Glue, S3',
+      'progress': '65%'
+    },
+    {
+      'id': '11',
+      'skill': 'API Design and Development',
+      'progress': '85%'
+    },
+    {
+      'id': '12',
+      'skill': 'Spring Boot, Dropwizard, Servlets',
+      'progress': '85%'
+    },
+    {
+      'id': '12',
+      'skill': 'Software Testing and Validation',
+      'progress': '85%'
+    }
   ];
 
 

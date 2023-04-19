@@ -7,12 +7,13 @@ import { ProfileService } from '../profile.service';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-about1: any
+about1: string  = ""
 about2: any
 
 constructor(private profileService:ProfileService) { }
 
   ngOnInit() {
+    //this.about1 =  this.profileService.about.replace(/\n/g, '<br/>');
     this.about1 =  this.profileService.about
     this.about2 =  this.profileService.about2
   }
