@@ -87,9 +87,19 @@ export class ProfileService {
     },
     {
       'id': '6',
-      'skill': 'Angular',
-      'progress': '60%'
+      'skill': 'Docker',
+      'progress': '65%'
     },
+    {
+         'id': '6',
+         'skill': 'Kubernetes',
+         'progress': '60%'
+    },
+    {
+          'id': '6',
+          'skill': 'Angular',
+          'progress': '60%'
+     },
     {
       'id': '7',
       'skill': 'JAVASCRIPT, JQUERY',
@@ -107,7 +117,7 @@ export class ProfileService {
     },
     {
       'id': '10',
-      'skill': 'AWS - Lamda, Glue, S3',
+      'skill': 'AWS - Lamda, Glue, S3, OpenSearch, API Gateways, Cloudwatch, ',
       'progress': '65%'
     },
     {
@@ -136,15 +146,26 @@ export class ProfileService {
 
   exprienceData: any = [
     {
+        id: 3,
+        company: 'Vonage',
+        location: 'Cary, NC',
+        timeline: 'Feb 2013-Current',
+        role: 'Senior Software Developer',
+        work: ['Technologies : Java, Angular, SpringBoot, RestAPI, Terraform, AWS, Jenkins, Git, Kubernetes, Docker',
+          'Led software development initiative as subject matter expert and primary point-of-contact for project management staff.hhgjh',
+        'Monitored ongoing operation of assigned programs, responded to problems by diagnosing and correcting logic, coding errors and increased success rate by 99.999%',
+      "Evaluated project requirements and specifications and developed software applications that surpassed client expectations"],
+      },
+    {
       id: 2,
       company: 'Twilio Inc',
       location: 'Cary, NC',
       timeline: 'Oct 2021 to Feb 2013',
       role: 'Senior Software Developer',
       work: ['Technologies : Java, DynamoDB, DrowpWizard, RestAPI, Buildkite, Python, Kotlin, Terraform, AWS, Memcache, Jenkins, Git',
-        'Led software development initiative as subject matter expert and primary point-of-contact for project management staff.hhgjh', 
-      'Monitored ongoing operation of assigned programs, responded to problems by diagnosing and correcting logic, coding errors and increased success rate by 99.999%',
-    "Evaluated project requirements and specifications and developed software applications that surpassed client expectations"],
+        'On-boarding new tools and technologies during development to elevate project quality and shorten timeframes',
+      'Reviewed code base and worked with development teams to correct problems, run test scenarios and prepare for deployment.',
+    'Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality'],
     },
     {
       id: 1,
