@@ -13,7 +13,7 @@ export class InterestsComponent implements OnInit {
   constructor(private profileService:ProfileService) { }
 
   ngOnInit() {
-    this.projects = this.profileService.getProjects()
+    this.projects = this.profileService.getInterests()
     this.config = {
       itemsPerPage: 3,
       currentPage: 1,

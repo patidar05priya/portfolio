@@ -12,6 +12,16 @@ export class ProfileService {
     private http: HttpClient
   ) { }
 
+  interests: any = [
+   {
+     id: 1,
+     title: 'Medium Article Writing and Personal Projects',
+     desc: 'I write on Medium about key learnings from technical books and progress on my personal projects, sharing insights and experiences in tech.',
+     mediumUrl: 'https://medium.com/@patidar05priya',
+     imgUrl: 'assets/images/interests_1.png',
+     topics: 'Technology, Personal Development, Project Development'
+   }
+  ]
   projects:any = [
     {
       id: 1,
@@ -200,6 +210,10 @@ export class ProfileService {
     // return this.http.get(this.baseUrl + 'skills');
     return this.projects;
   }
+
+  getInterests(): Observable<any> {
+      return this.interests;
+    }
   education(): Observable<any> {
     // return this.http.get(this.baseUrl + 'education');
     return this.educationData;
